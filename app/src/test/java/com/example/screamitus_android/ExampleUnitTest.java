@@ -1,5 +1,6 @@
 package com.example.screamitus_android;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -11,13 +12,29 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
     @Test
-    public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
-    }
-}
+    class calculateTotalInfected {
 
-    @Test
-    public void () {
-        assertEquals(4, 2 + 2);
+        public calculateTotalInfected
+
+        {
+
+            calculateTotalInfected s;
+
+            public void setUp ( int day);
+            {
+                s = new calculateTotalInfected();
+            }
+        }
     }
+
+    //R1  number of days must be greater than zero
+
+    public void infection() {
+        infection() ; = new calculateTotalInfected ();
+        boolean actualOutput = infection().();
+        assertEquals(true, actualOutput);
+    }
+
+
+
 }
