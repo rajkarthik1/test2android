@@ -11,16 +11,19 @@ import static org.junit.Assert.*;
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 public class ExampleUnitTest {
-    @Test
+
     class calculateTotalInfected {
 
-        public calculateTotalInfected
+        private int day;
+
+        public calculateTotalInfected(int Day)
 
         {
+            day = Day;
 
             calculateTotalInfected s;
 
-            public void setUp ( int day);
+            public void setUp; (int);
             {
                 s = new calculateTotalInfected();
             }
@@ -35,7 +38,7 @@ public class ExampleUnitTest {
             return false;
         }
         else {
-            // otherwise, calculate days
+            // otherwise, calculate day
             if (n + 1 == 0) {
                 return true;
             }
@@ -46,7 +49,7 @@ public class ExampleUnitTest {
     }
 
 
-    
+
     // R2 Virus infected instructors at a rate of 5 intructors
 
     public int calculateTotalInfected(int Day) {
