@@ -29,12 +29,31 @@ public class ExampleUnitTest {
 
     //R1  number of days must be greater than zero
 
-    public void infection() {
-        infection() ; = new calculateTotalInfected ();
-        boolean actualOutput = infection().();
-        assertEquals(true, actualOutput);
+    public boolean isGreater(int n) {
+        if (n <= 0) {
+            // if n < 0, exit function
+            return false;
+        }
+        else {
+            // otherwise, calculate days
+            if (n + 1 == 0) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
     }
 
+
+    
+    // R2 Virus infected instructors at a rate of 5 intructors
+
+    public int calculateTotalInfected(int Day) {
+
+        int subTotal = 5 * Day;
+
+    }
 
 
 }
